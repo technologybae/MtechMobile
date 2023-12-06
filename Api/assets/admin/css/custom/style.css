@@ -1,0 +1,960 @@
+label {
+    color: #000;
+}
+.redStar{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.page-title{
+    padding: 15px 0 !important;
+}
+.alert{
+    padding: 8px;
+}
+.pdLeft0{
+    padding-left: 0px !important;
+}
+.pdRight0{
+    padding-right: 0px !important;
+}
+.examCodesCls {
+    border: 1px solid #e4e4e4;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.examCodesCls ul {
+    list-style: none;
+    width: 100%
+}
+
+.examCodesCls ul li{
+    float: left;
+    width: 15%;
+}
+
+.examProductsCls{
+
+}
+
+.examProductsCls ul {
+    list-style: none !important;
+    width: 100%
+}
+
+.examProductsCls ul li{
+    float: left !important;
+    width: 15%;
+}
+
+.label.label-success {
+    background-color: #639c15;
+    color: #fff;
+}
+
+.btn.btn-secondary {
+    background-color: #639c15;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #639c15;
+    border-color: #80b636;
+    color: #fff;
+}
+
+.hotChecks {
+    margin-bottom: 10px;
+    padding: 0 !important;
+}
+
+.hotChecks label
+{
+	margin-right:10px;
+    color: #999;
+}
+
+a.hotType
+{
+	float:left;
+	margin-bottom:2px;
+	margin-right:2px;
+}
+span#hottype-error {
+    color: #cc3f44;
+    display: block;
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+#applyBulk {
+    float: left;
+    width: auto;
+    line-height: 30px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    color: #999 !important;
+}
+
+.nopadding
+{
+	padding:0px !important;
+}
+
+.nopaddingLeft
+{
+	padding-left:0px !important;
+}
+
+.nopaddingRight
+{
+	padding-right:0px !important;
+}
+
+.marginTop20
+{
+	margin-top:20px;
+}
+
+.paddingTop20
+{
+	padding-top:20px;
+}
+footer.main-footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: 10px;
+    padding: 20px 30px;
+}
+
+#require_certs
+{
+	min-height:250px;
+}
+
+#require_exams
+{
+	min-height:250px;
+}
+
+.navbar.horizontal-menu {
+    background: #3c8dbc;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    height: 85px;
+    margin: 0;
+    min-height: 0;
+    padding: 0;
+    position: relative;
+    z-index: 101;
+}
+
+li.user-profile:hover {
+    background: #367fa9;
+}
+
+li.user-profile:hover > a {
+    background: #367fa9 !important;
+}
+
+a.logo-expanded {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: center;
+	color:#fff;
+}
+
+.user-profile a span {
+    color: #fff;
+}
+
+.user-profile.open {
+    background:none !important;
+}
+
+.user-profile.open > a {
+    background:#367fa9 !important;
+	border:none !important;
+}
+
+.sidebar-menu {
+    background: #222d32 none repeat scroll 0 0;
+    display: table-cell;
+    position: relative;
+    width: 235px;
+    z-index: 1;
+}
+
+.page-container .main-content {
+    background: #ecf0f5 none repeat scroll 0 0;
+    display: table-cell;
+    padding: 30px 30px 0;
+    position: relative;
+    transition: opacity 100ms ease-in-out 0s;
+    vertical-align: top;
+    width: 100%;
+    z-index: 1;
+}
+
+.login-page {
+    background: #2c2e2f none repeat scroll 0 0;
+    color: #fff;
+    padding-top: 5%;
+}
+.loginLogo {
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+.login-page h2 {
+    color: #222d32;
+    float: none;
+    font-size: 30px;
+    margin: 20px 0 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.login-page input[type="text"], .login-page input[type="password"] {
+    width: 100% !important;
+}
+
+.login-page .loginLogo span {
+    color: #222d32;
+    display: block;
+    float: none;
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.mfp-container {
+    background: #ecf0f5 none repeat scroll 0 0;
+    border-radius: 5px;
+    height: auto !important;
+    left: 20% !important;
+    top: 5% !important;
+    width: 60% !important;
+}
+
+.viewBox {
+    float: left;
+    padding: 10px 2%;
+    width: 100%;
+}
+
+.viewCertDetail, .editCert, .deleteCert {
+    background: #c6c6c6 none repeat scroll 0 0 !important;
+    border: 1px solid #a0a0a0;
+    border-radius: 2px;
+    float: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px !important;
+}
+
+.viewCertDetail, .editCert
+{
+	padding-right:0px;
+}
+
+.viewCertDetail:focus, .viewCertDetail:hover, .editCert:focus .editCert:hover, .deleteCert:focus, .deleteCert:hover {
+    text-decoration:none;
+}
+
+.label.label-primary {
+    background-color: #3c8dbc !important;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #3c8dbc;
+    border-color: #2a7baa;
+    color: #fff !important;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus
+{
+    background-color: #3c8dbc;
+    border-color: #2a7baa;
+    color: #fff;
+}
+
+.sidebar-menu .main-menu {
+    list-style: outside none none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#examsCertsContainer {
+    background: #3c8dbc none repeat scroll 0 0;
+    height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+#certTree label {
+    color: #fff;
+    font-size: 12px;
+    padding-left: 5px;
+}
+#certTree input {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.certTree ul {
+    background-color: #3c8dbc;
+    margin-top: 4px;
+	list-style:none;
+}
+.certTree ul li {
+	list-style:none;
+}
+
+.validate-has-error1, .validate-has-error2, .validate-has-error3, .validate-has-error4, .validate-has-error5, .validate-has-error6, .validate-has-error7, .validate-has-error8, .validate-has-error9 {
+    color: #cc3f44;
+    line-height: 30px;
+}
+
+.label.examCertNames {
+    background: grey none repeat scroll 0 0;
+    display: block;
+    float: left;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    overflow-wrap: break-word;
+}
+
+.formatChecks {
+    margin-bottom: 10px;
+    padding: 0 !important;
+}
+
+.formatChecks label {
+    color: #999;
+    margin-right: 10px;
+}
+
+.viewBoxOptions {
+    float: left;
+    margin-left: 25%;
+    padding: 20px 0;
+    width: 50%;
+}
+
+.statusDisplay {
+    float: left;
+    margin-bottom: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+.hotDisplay {
+    float: left;
+    margin-bottom: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+.retireDisplay {
+    float: left;
+    margin-bottom: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+a.clearSelection {
+    background: #313437 none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 10px;
+    padding: 2px 5px;
+}
+
+.replacementBox {
+    background: blanchedalmond none repeat scroll 0 0;
+    padding: 10px 5%;
+}
+
+.replacementInfo
+{
+	width:100%;
+}
+
+#replacementInfo p {
+    color: #000;
+    padding: 10px 0;
+}
+
+#replacementInfo td, #replacementInfo th {
+    padding: 5px;
+    color: #000;
+}
+
+
+#certificationData_form .alert a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#examData_form .alert a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.smallTable {
+    border: 1px solid #eee;
+    width: 100%;
+}
+
+.smallTable tr {
+	float:left;
+	width:100%;
+}
+.smallTable tr th {
+    padding: 8px 5px 8px 10px !important;
+	float:left;
+}
+
+.smallTable tr input {
+    margin-top:0px;
+}
+
+.smallTable tr td {
+    border-bottom: medium none !important;
+    float: left;
+    font-size: 11px;
+    line-height: 19px !important;
+    padding: 8px 5px 3px 10px !important;
+}
+
+.emptyData
+{
+	font-style:italic;
+}
+
+.smallTable thead {
+    float: left;
+    width: 100%;
+}
+.smallTable tbody {
+    float: left;
+    height: 600px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.locationChecks
+{
+	float:left;
+	width:100%;
+	padding:0px;
+	margin-bottom:20px;
+}
+
+.locationChecks label {
+    float: left;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.locationChecks input {
+    float: left;
+    height: 20px;
+    line-height: 20px !important;
+    margin: 0 3px 0 0;
+    width: auto;
+}
+
+.validate-has-error {
+    color: #cc3f44;
+    line-height: 30px;
+}
+
+.control-label .checkbox {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.control-label .radioBox {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.dataTables_length
+{
+	float:left;
+}
+
+.dataTables_filter
+{
+	float:right;
+}
+
+.dataTables_info {
+    float: left;
+}
+
+#missingTable_filter > label {
+    float: left;
+    line-height: 32px;
+}
+
+.dataTables_filter input[type="search"] {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4e4e4;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    float: right;
+    font-size: 13px;
+    height: 32px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 70%;
+}
+
+.dataTables_length select {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4e4e4;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    font-size: 13px;
+    height: 32px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.dataTables_length > label {
+    float: left;
+    line-height: 32px;
+}
+
+
+.dataTables_paginate
+{
+    float: right;	
+}
+
+.paginate_button.current {
+    background: #3c8dbc none repeat scroll 0 0;
+    border: 1px solid #2a7baa;
+    color: #fff;
+    float: left;
+    padding: 6px 12px;
+}
+
+.paginate_button {
+background-color: #fff;
+    border: 1px solid #ddd;
+    color: #373e4a;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+	cursor:pointer;
+}
+
+.paginate_button.disabled {
+    cursor: no-drop;
+}
+
+.ellipsis {
+    float: left;
+    line-height: 25px;
+}
+
+span.defaultPrice {
+    background: #3c8dbc none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 2px 5px;
+}
+
+span.vendorName {
+    background: #222d32 none repeat scroll 0 0;
+    color: #fff;
+    float: right;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 2px 5px;
+}
+
+.priceRules h3.panel-title {
+    border-bottom: 1px solid #979898;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+li.vendorRule {
+    background: bisque none repeat scroll 0 0;
+}
+
+li.examRule {
+    background: skyblue none repeat scroll 0 0;
+}
+li.certRule {
+    background: lightsalmon none repeat scroll 0 0;
+}
+.rulesColor > ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.rulesColor li {
+    float: left;
+    line-height: 20px;
+    list-style: outside none none;
+    margin-bottom: 15px;
+    margin-right: 0;
+    padding: 5px 2%;
+    width: 33.3%;
+}
+
+.rulesColor p {
+    color: #2c2e2f;
+}
+
+.marginBottom20
+{
+    margin-bottom:20px;	
+}
+
+.selectCouponType {
+    border: 1px solid #eee;
+    float: left;
+    padding: 20px 10px !important;
+	margin-bottom:20px;
+}
+
+.singleCoupon {
+    border: 1px solid #eee;
+    float: left;
+    padding: 20px 10px !important;
+	margin-bottom:20px;
+}
+
+.multiCoupon
+{
+    border: 1px solid #eee;
+    float: left;
+    padding: 20px 10px !important;
+	margin-bottom:20px;
+}
+
+.couponCodeSpan
+{
+	float:left;
+	margin-right:15px;
+	margin-bottom:10px;
+}
+
+.couponCodeSpan {
+    background: #3c8dbc none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 4px;
+}
+
+.couponDetailPage h3
+{
+	float: left;
+    font-size: 17px;
+	color: #2c2e2f;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.couponDetailPage p
+{
+	float: left;
+    font-size: 14px;
+	color: #2c2e2f;
+	width:100%;
+	margin-bottom:5px;
+}
+
+#accordion
+{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url("../../images/ui-icons_ffffff_256x240.png") !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    background: #3c8dbc none repeat scroll 0 0 !important;
+    border: 1px solid #3c8dbc !important;
+    color: #fff !important;
+    font-weight: normal;
+    line-height: 25px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background: #222d32 none repeat scroll 0 0 !important;
+    border: 1px solid #000000 !important;
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+ .showIfnotStatic table {
+    border: 1px solid #eee;
+    width: 100%;
+	margin-top:20px;
+}
+
+.showIfnotStatic th {
+    background: #222d32 none repeat scroll 0 0;
+    padding: 8px 15px !important;
+}
+
+.showIfnotStatic td {
+    padding: 5px 15px !important;
+}
+.userPermissions {
+    background: whitesmoke none repeat scroll 0 0;
+    border: 1px solid #eee;
+}
+.userPermissions > ul {
+    list-style: outside none;
+    padding: 10px;
+}
+
+.userPermissions .control-label > input {
+    margin-right: 5px;
+}
+
+#is_addon {
+    float: left;
+    height: auto;
+    line-height: normal;
+    margin: 3px 5px 0 0;
+    width: auto;
+}
+
+#productsContainer {
+    margin-bottom: 15px;
+}
+
+.checkBoxesBtn
+{
+	float:left;
+	margin-left:10px;
+}
+
+.uncheckBoxesBtn
+{
+	float:left;
+	margin-left:5px;
+}
+
+.vendorPic
+{
+	float:left;
+	width:100%;
+}
+.vendorPic input[type="file"] {
+    height: auto;
+}
+.vendorPic input, .vendorPic label
+{
+	float:left;
+	width:60%;
+}
+
+.vendor_pic {
+    float: right;
+    margin-right: 10%;
+    width: 20%;
+}
+
+.vendor_pic img
+{
+	width:100%;
+}
+
+.margin-btootmZero
+{
+	margin-bottom:0px;
+}
+
+.margin-top20 {
+    margin-top: 20px !important;
+}
+
+.hideifNotPreorder
+{
+	display:none;
+}
+
+
+.withBackground {
+    background: whitesmoke none repeat scroll 0 0;
+    margin-bottom: 15px;
+    padding: 20px 2%;
+}
+
+label p.notice
+{
+	font-size:12px;
+}
+
+#extLisenceKeys .form-group {
+    min-height: 60px;
+}
+
+tr.orderActivity {
+    background: palegreen !important;
+}
+
+tr.ondemandActivity {
+    background: yellow none repeat scroll 0 0 !important;
+}
+
+tr.demoActivity {
+    background: powderblue !important;
+}
+
+tr.condemandActivity {
+    background: teal none repeat scroll 0 0 !important;
+    color: #fff;
+}
+
+tr.orderAODActivity {
+    background: tomato none repeat scroll 0 0 !important;
+    color: #fff;
+}
+
+tr.orderATCActivity {
+    background: seagreen none repeat scroll 0 0 !important;
+    color: #fff;
+}
+
+tr.orderADActivity {
+    background: royalblue none repeat scroll 0 0 !important;
+    color: #fff;
+}
+
+li.orderActivity {
+    background: palegreen none repeat scroll 0 0 !important;
+}
+
+li.ondemandActivity {
+    background: yellow none repeat scroll 0 0;
+}
+
+li.demoActivity {
+    background: powderblue none repeat scroll 0 0;
+}
+
+li.condemandActivity {
+    background: teal none repeat scroll 0 0;
+    color: #fff;
+}
+
+li.orderAODActivity {
+    background: tomato none repeat scroll 0 0;
+    color: #fff;
+}
+
+li.orderATCActivity {
+    background: seagreen none repeat scroll 0 0;
+    color: #fff;
+}
+
+li.orderADActivity {
+    background: royalblue none repeat scroll 0 0;
+    color: #fff;
+}
+
+.form-control {
+    min-height: 38px;
+}
+
+.xe-widget.xe-counter .xe-label .num, .xe-widget.xe-counter-block .xe-upper .xe-label .num, .xe-widget.xe-progress-counter .xe-upper .xe-label .num {
+    display: block;
+    font-size: 28px !important;
+    font-weight: 400;
+}
+
+.resBox {
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.vendorNotesHtml {
+    background: infobackground none repeat scroll 0 0;
+    padding: 15px 2%;
+}
+
+div.form-control {
+    height: auto;
+}
+
+li.opened > a > span, li.opened > a {
+    color: #fff !important;
+}
+
+.sidebar-menu .main-menu a>span {
+    display: initial !important;
+}
+
+.certsTree li {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0px;
+    float: left;
+    width: 100%;
+}
+
+.certsTree li a {
+    float:left;
+}
+
+.viewAnchor {
+    background: #c6c6c6 none repeat scroll 0 0 !important;
+    border: 1px solid #a0a0a0;
+    color: #373e4a;
+    padding: 0px 3px;
+    border-radius: 2px;
+    float: left;
+    font-size: 12px;
+}
+.btn-actions{
+    border-radius: 50px;
+}
