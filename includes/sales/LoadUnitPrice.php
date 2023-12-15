@@ -38,7 +38,7 @@ $PPrice = $getDetails->PPrice;
 $IsVat = $getDetails->IsVat;
 $vatPer = $getDetails->vatPer;
 $vatAmt = $getDetails->vatAmt;
-
+$CostPrice = $getDetails->CostPrice;
 
 
 
@@ -90,6 +90,8 @@ $("#vatPer").val('<?=$vatPer?>');
 $("#vatAmt").val('<?=$vatAmt?>');
 $("#isVat").val('<?=$IsVat?>');
 $("#qty").val('1');
+$("#CostPrice").val('<?=$CostPrice?>');
+$("#costTotal").val('<?=$CostPrice?>');
 
 <?php
 if($IsVat!=0)
